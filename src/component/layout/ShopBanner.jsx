@@ -1,13 +1,13 @@
+import 'animate.css';
 import { Link } from "react-router";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import Heading from "../Heading";
 import Image from "../Image";
 import shopbannerbg from "/src/assets/shopbannerbg.png";
-import shopBannerbg2 from '/src/assets/shopBannerbg2.png'
-import shopBannerbg3 from '/src/assets/shopBannerbg3.png'
-import Heading from "../Heading";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import 'animate.css';
+import shopBannerbg2 from '/src/assets/shopBannerbg2.png';
+import shopBannerbg3 from '/src/assets/shopBannerbg3.png';
 
 const ShopBanner = () => {
     var settings = {
@@ -31,7 +31,7 @@ const ShopBanner = () => {
             <Image
               className={"relative bg-no-repeat bg-cover bg-center"}
               imgSrc={shopbannerbg}
-              imgAlt={shopannerbg}
+              imgAlt={shopbannerbg}
             />
             <div className="absolute top-1/2 left-20 -translate-y-1/2">
               <Heading
