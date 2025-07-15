@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body{
+  background: white;
+}
+
+@theme {
+  --color-menuC: #222222;
+  
+}
+
+
+
