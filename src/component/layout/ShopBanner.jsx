@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import Image from "../Image";
-import shopBannerbg from "/src/assets/shopBannerbg.png";
+import shopbannerbg from "/src/assets/shopbannerbg.png";
 import shopBannerbg2 from '/src/assets/shopBannerbg2.png'
 import shopBannerbg3 from '/src/assets/shopBannerbg3.png'
 import Heading from "../Heading";
@@ -30,8 +30,8 @@ const ShopBanner = () => {
           <div className={"relative group"}>
             <Image
               className={"relative bg-no-repeat bg-cover bg-center"}
-              imgSrc={shopBannerbg}
-              imgAlt={shopBannerbg}
+              imgSrc={shopbannerbg}
+              imgAlt={shopannerbg}
             />
             <div className="absolute top-1/2 left-20 -translate-y-1/2">
               <Heading
